@@ -1,2 +1,2 @@
 # eMall
-Demo of an e-commerce shopping mall
+Demo of the E-Commerce Shopping Mall
