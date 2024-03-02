@@ -1,2 +1,2 @@
 # eMall
-Demo of the E-Commerce Shopping Mall
+Project of the E-Commerce Shopping Mall
