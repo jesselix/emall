@@ -1,0 +1,26 @@
+server:
+  port: 8040
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/j_emall
+    username: your_username
+    password: your_password
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      # Maximum number of connections in the pool
+      maximum-pool-size: 10
+
+      # Minimum number of idle connections in the pool
+      minimum-idle: 5
+
+      # Maximum lifetime of a connection in the pool (milliseconds)
+      max-lifetime: 1800000  # 30 minutes
+
+      # Maximum time to wait for a connection from the pool (milliseconds)
+      connection-timeout: 30000  # 30 seconds
+
+      # Time that a connection is allowed to sit idle in the pool (milliseconds)
+      idle-timeout: 600000  # 10 minutes
+
+      # Pool name (optional)
+      pool-name: HikariCP-Pool
