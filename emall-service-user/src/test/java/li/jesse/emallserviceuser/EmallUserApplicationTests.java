@@ -1,4 +1,4 @@
-package li.jesse.emalluser;
+package li.jesse.emallserviceuser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

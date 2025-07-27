@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/j_emall
-    username: your_username
-    password: your_password
+    username: jesselix
+    password: www
     driver-class-name: org.postgresql.Driver
     hikari:
       # Maximum number of connections in the pool

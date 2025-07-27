@@ -1,5 +1,5 @@
 spring:
   application:
-    name: emall-user
+    name: j_emall
   profiles:
     active: dev

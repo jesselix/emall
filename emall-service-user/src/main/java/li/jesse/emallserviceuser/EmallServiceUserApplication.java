@@ -1,13 +1,13 @@
-package li.jesse.emalluser;
+package li.jesse.emallserviceuser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmallUserApplication {
+public class EmallServiceUserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EmallUserApplication.class, args);
+        SpringApplication.run(EmallServiceUserApplication.class, args);
     }
 
 }

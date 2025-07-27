@@ -15,10 +15,10 @@
 
 	<!-- Basic Info -->
 	<groupId>li.jesse</groupId>
-	<artifactId>emall-parent</artifactId>
+	<artifactId>emall-service-parent</artifactId>
 	<version>0.0.1</version>
-	<name>emall-parent</name>
-	<description>Emall Parent POM</description>
+	<name>emall-service-parent</name>
+	<description>Emall Service Parent POM</description>
 	<url>https://github.com/jesselix/emall</url>
 
 	<developers>

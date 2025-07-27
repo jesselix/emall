@@ -6,15 +6,15 @@
     <!-- Parent -->
     <parent>
         <groupId>li.jesse</groupId>
-        <artifactId>emall-parent</artifactId>
+        <artifactId>emall-service-parent</artifactId>
         <version>0.0.1</version>
-        <relativePath>../emall-parent/pom.xml</relativePath>
+        <relativePath>../emall-service-parent/pom.xml</relativePath>
     </parent>
 
     <!-- Basic Info -->
-    <artifactId>emall-user</artifactId>
+    <artifactId>emall-service-user</artifactId>
     <version>0.0.1</version>
-    <name>emall-user</name>
-    <description>Emall User Microservice</description>
+    <name>emall-service-user</name>
+    <description>Emall Service User Microservice</description>
 
 </project>
