@@ -17,9 +17,9 @@
 	<groupId>li.jesse</groupId>
 	<artifactId>emall-parent</artifactId>
 	<version>0.0.1</version>
-	<url>https://github.com/jesselix/emall</url>
 	<name>emall-parent</name>
 	<description>Emall Parent POM</description>
+	<url>https://github.com/jesselix/emall</url>
 
 	<developers>
 		<developer>
