@@ -5,44 +5,43 @@
 
 	<packaging>pom</packaging>
 
-	<!-- Parent -->
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.4</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+    <!-- 1 Basic Info -->
+    <groupId>li.jesse</groupId>
+    <artifactId>emall-service-parent</artifactId>
+    <version>0.0.1</version>
+    <name>emall-service-parent</name>
+    <description>Emall Service Parent POM</description>
+    <url>https://github.com/jesselix/emall</url>
+    <developers>
+        <developer>
+            <id>jesse.li</id>
+            <name>Jessé Li</name>
+            <email>jesse.li@live.com</email>
+            <organization>jesselix</organization>
+            <organizationUrl>https://github.com/jesselix</organizationUrl>
+        </developer>
+    </developers>
 
-	<!-- Basic Info -->
-	<groupId>li.jesse</groupId>
-	<artifactId>emall-service-parent</artifactId>
-	<version>0.0.1</version>
-	<name>emall-service-parent</name>
-	<description>Emall Service Parent POM</description>
-	<url>https://github.com/jesselix/emall</url>
+    <!-- 2 Parent -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>4.0.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
-	<developers>
-		<developer>
-			<id>jesse.li</id>
-			<name>Jessé Li</name>
-			<email>jesse.li@live.com</email>
-			<organization>jesselix</organization>
-			<organizationUrl>https://github.com/jesselix</organizationUrl>
-		</developer>
-	</developers>
+    <!-- 3 Properties -->
+    <properties>
+        <java.version>25</java.version>
+        <spring-cloud.version>2025.1.0</spring-cloud.version>
+        <volcano-common.version>0.0.1</volcano-common.version>
+        <micrometer-registry-prometheus.version>1.15.1</micrometer-registry-prometheus.version>
+    </properties>
 
-	<!-- Properties -->
-	<properties>
-		<java.version>21</java.version>
-		<spring-cloud.version>2025.0.0</spring-cloud.version>
-		<volcano-common.version>0.0.1</volcano-common.version>
-		<micrometer-registry-prometheus.version>1.15.1</micrometer-registry-prometheus.version>
-	</properties>
-
-	<!-- Dependencies -->
+	<!-- 4 Dependencies -->
 	<dependencies>
 
-		<!-- Dependencies: Spring Boot -->
+		<!-- 4.1 Dependencies: Spring Boot -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -69,7 +68,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-        <!-- Dependencies: Some Others -->
+        <!-- 4.2 Dependencies: Some Others -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -87,7 +86,7 @@
             <version>${micrometer-registry-prometheus.version}</version>
         </dependency>
 
-		<!-- Dependencies: Mine -->
+		<!-- 4.3 Dependencies: Mine -->
 		<dependency>
 			<groupId>li.jesse</groupId>
 			<artifactId>volcano-common</artifactId>
@@ -95,7 +94,7 @@
 		</dependency>
 	</dependencies>
 
-	<!-- Dependencies Management -->
+	<!-- 5 Dependencies Management -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -108,7 +107,7 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<!-- Build -->
+	<!-- 6 Build -->
 	<build>
 		<plugins>
 			<plugin>
