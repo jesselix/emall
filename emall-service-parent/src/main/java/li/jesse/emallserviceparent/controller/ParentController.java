@@ -1,4 +1,4 @@
-package li.jesse.emallparent.controller;
+package li.jesse.emallserviceparent.controller;
 
 public class ParentController {
 
